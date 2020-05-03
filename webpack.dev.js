@@ -1,5 +1,7 @@
+// Required by Webpack
 const path = require('path')
 const webpack = require('webpack')
+// Plugins
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
