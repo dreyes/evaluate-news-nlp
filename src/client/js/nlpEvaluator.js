@@ -8,9 +8,10 @@ const requestAPI = async (mysite = '') => {
       body: JSON.stringify({ mysite: mysite }),
   })
   try {
-      document.getElementById('results').innerHTML = mysite;
       const newData = await response.json();
       console.log(newData);
+      document.getElementById('polarity').innerHTML = "Polarity: " + newData.polarity;
+      document.getElementById('subjectivity').innerHTML = "Subjectivity: " + newData.subjectivity;
       return newData;
   } catch(error) {
       console.log("error", error);
