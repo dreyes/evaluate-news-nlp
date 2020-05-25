@@ -1,4 +1,4 @@
-import { checkForName } from './js/nameChecker'
+import { requestAPI } from './js/nlpEvaluator'
 import { handleSubmit } from './js/formHandler'
 
 import './styles/resets.scss'
@@ -8,11 +8,9 @@ import './styles/form.scss'
 import './styles/header.scss'
 
 export {
-  checkForName,
+  requestAPI,
   handleSubmit
 }
 
-console.log(checkForName);
-
-alert("My Alert!!")
+alert("Welcome!")
 console.log("CHANGE!!");
