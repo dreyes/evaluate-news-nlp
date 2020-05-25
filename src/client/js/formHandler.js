@@ -5,10 +5,12 @@ function handleSubmit(event) {
     let formText = document.getElementById('name').value
     
     console.log("::: Form Submitted :::");
-    
-    Client.requestAPI(formText)
-    console.log("::: Form Sent :::")
-
+    if(Client.isValid(formText)) {
+        Client.requestAPI(formText)
+        console.log("::: Form Sent :::")
+    } else {
+        alert("Please enter a valid URL.")
+    }
 }
 
 export { handleSubmit }

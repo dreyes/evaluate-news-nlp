@@ -1,5 +1,6 @@
 import { requestAPI } from './js/nlpEvaluator'
 import { handleSubmit } from './js/formHandler'
+import { isValid } from './js/urlValidator'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -9,7 +10,8 @@ import './styles/header.scss'
 
 export {
   requestAPI,
-  handleSubmit
+  handleSubmit,
+  isValid
 }
 
 alert("Welcome!")
