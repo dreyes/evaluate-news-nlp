@@ -1,3 +1,7 @@
+# Project Information
+This project consists on the fourth project of the Front End Nanodegree Program at Udacity. The project is a NLP News Evaluator, which evaluates the content of any link provided using the AYLIEN API. It consists on using an express server with webpack. A development and a production environment are set in webpack. For styling Sass is used instead of CSS. Service workers are used for offline availability and regex is used to validate form input.
+
+
 # Project Instructions
 
 This repo is your starter code for the project. It is the same as the starter code we began with in lesson 2. Install and configure Webpack just as we did in the course. Feel free to refer to the course repo as you build this one, and remember to make frequent commits and to create and merge branches as necessary!

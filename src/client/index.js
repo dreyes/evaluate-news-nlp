@@ -13,6 +13,3 @@ export {
   handleSubmit,
   isValid
 }
-
-alert("Welcome!")
-console.log("CHANGE!!");
