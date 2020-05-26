@@ -1,7 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&family=Zilla+Slab:ital,wght@1,300&display=swap);
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: #1E1F26;
 }
 
 main {
@@ -12,3 +15,28 @@ section {
     max-width: 800px;
     margin: 50px auto;
 }
+
+h1 {
+    /* Header 1 */
+    /* font: font-style font-variant font-weight font-size/line-height font-family; */
+    font: normal 800 40px/48px Sen;
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+
+  strong {
+    /* font: font-style font-variant font-weight font-size/line-height font-family; */
+    font: normal bold 24px/30px Sen;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+
+  .results {
+    font: normal normal 18px/22px Sen;
+    align-items: center;
+    color: #fff;
+  }

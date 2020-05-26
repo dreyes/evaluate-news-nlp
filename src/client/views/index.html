@@ -2,37 +2,35 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>NLP News Evaluator</title>
+        <meta content="width=device-width initial-scale=1 maximum-scale=1" name="viewport">
+        <link rel="icon" href="images/dr_logo_64.png">
     </head>
 
     <body>
 
         <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
-            </div>
+            <div class="logo"><img src="images/dr_logo.png" alt="Donaldo Reyes" width="180" height="66"></div>
         </header>
 
         <main>
             <section>
+                <h1>NLP NEWS ARTICLE EVALUATOR</h1>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
+                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="URL to examine">
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             <section>
 
             <section>
-                <strong>Form Results:</strong>
-                <div id="polarity"></div>
-                <div id="subjectivity"></div>
+                <strong>Evaluation Results:</strong>
+                <div class="results" id="polarity"></div>
+                <div class="results" id="subjectivity"></div>
             </section>
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <blockquote class="footer-font">Webpage designed by Donaldo Reyes</blockquote>
         </footer>
         <script>
             // Check that service workers are supported

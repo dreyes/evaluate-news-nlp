@@ -1,0 +1,20 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&family=Zilla+Slab:ital,wght@1,300&display=swap);
+
+footer {
+  margin: 20px;
+}
+
+blockquote {
+  /* font: font-style font-variant font-weight font-size/line-height font-family; */
+  font: italic 300 24px/30px Zilla Slab;
+  display: flex;
+  align-items: center;
+  color: #1E1F26;
+}
+
+.footer-font {
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
